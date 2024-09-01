@@ -10,7 +10,8 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 ## Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
 
-Medida 1: Implementação de AWS Identity and Access Management (IAM) com Políticas de Least Privilege
+Medida 1: 
+Implementação de AWS Identity and Access Management (IAM) com Políticas de Least Privilege
 Para garantir que os colaboradores da Bolinha Tech tenham apenas as permissões mínimas necessárias para realizar suas funções, foi implementado o AWS Identity and Access Management (IAM) com políticas de least privilege. Esta medida envolveu a criação de grupos de usuários com políticas de acesso restrito, baseadas nas funções de cada grupo dentro da empresa e habilitado o 2FA para evitar que acessos indevidos sejam realizado por terceiros.
 
 Benefícios:
@@ -18,7 +19,8 @@ Benefícios:
 - Controle granular sobre quem pode acessar e modificar recursos específicos na AWS.
 - Melhoria na auditoria e no monitoramento de atividades de usuários.
 
-Medida 2:Implementação de AWS Key Management Service (KMS) para Criptografia de Dados
+Medida 2: 
+Implementação de AWS Key Management Service (KMS) para Criptografia de Dados
 Foi implementado o AWS Key Management Service (KMS) para criptografar dados em repouso e em trânsito. O KMS permite a criação e o gerenciamento de chaves de criptografia, que são usadas para proteger informações sensíveis da empresa, como dados de clientes e registros financeiros.
 
 Benefícios:
